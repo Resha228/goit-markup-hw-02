@@ -19,6 +19,7 @@
 }
 body {
   font-family: "Roboto";
+  color: #434455;
 }
 /* Studio */
 /* header x2 */
@@ -28,7 +29,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   color: #2e2f42;
   text-transform: uppercase;
   text-decoration-line: none;
@@ -39,45 +40,94 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   color: #4d5ae5;
 }
-.header-list {
-}
+
 .header-item {
+  list-style-type: none;
 }
+
 .nav-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-decoration-line: none;
   color: #2e2f42;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.header-address {
+
+.header-address :hover,
+.header-address:focus {
+  color: #404bbf;
 }
 .header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   text-decoration-line: none;
+  color: #434455;
 }
+
 .header-tel {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   text-decoration-line: none;
+  color: #434455;
 }
-
+/* Banner */
+.banner {
+  background-color: #2e2f42;
+}
+.banner-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.banner-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.banner-btn:hover,
+.banner-btn:focus {
+  background-color: #404bbf;
+}
+/* Four Section */
+.four-section {
+}
+.visually-hidden {
+}
+.four-section-list {
+}
+.four-section-item {
+  list-style-type: none;
+}
+.four-section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.four-section-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* Portfolio */
