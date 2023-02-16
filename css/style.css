@@ -17,6 +17,67 @@
   outline: none;
   white-space: nowrap;
 }
+body {
+  font-family: "Roboto";
+}
 /* Studio */
+/* header x2 */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+.span-logo {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+.header-list {
+}
+.header-item {
+}
+.nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: #2e2f42;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+.header-address {
+}
+.header-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration-line: none;
+}
+.header-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration-line: none;
+}
 
 /* Portfolio */
