@@ -103,6 +103,12 @@ body {
 .banner-btn {
   border: 0px;
   background-color: #4d5ae5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
 }
@@ -220,6 +226,12 @@ body {
   border: 0;
   background-color: #e7e9fc;
   color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   list-style-type: none;
   cursor: pointer;
 }
@@ -231,8 +243,7 @@ body {
 .choise-list-photo {
   list-style-type: none;
 }
-.choise-item-photo {
-}
+
 .choise-link {
   text-decoration-line: none;
 }
